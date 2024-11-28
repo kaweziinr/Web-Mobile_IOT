@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selecione uma data"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/dataHoraInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/dd_mm_aaaa"
+        android:inputType="none"
+        android:drawableEnd="@drawable/ic_calendar"
+        android:backgroundTint="@color/primaryColor"
+        android:textColor="@android:color/black"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/verificarButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buscar" />
+
+    <Button
+        android:id="@+id/verTodosButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="88dp"
+        android:translationY="-47.5dp"
+        android:text="Ver Todos" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:textSize="16sp" />
+</LinearLayout>

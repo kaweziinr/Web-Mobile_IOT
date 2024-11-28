@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MP</string>
+    <string name="dd_mm_aaaa">DD-MM-AAAA</string>
+    <string name="selecione_uma_data">Selecione uma Data:</string>
+    <string name="buscar">Buscar</string>
+    <string name="ver_todos">Ver Todos</string>
+</resources>
